@@ -30,7 +30,7 @@ def main():
     repeated_guest = st.radio("Repeated guest [0 = No, 1 = Yes]", ["0", "1"])
     no_of_previous_cancellations = st.number_input("Number of previous cancellations", 0, 50)
     no_of_previous_bookings_not_canceled = st.number_input("Number of previous bookings not canceled", 0, 100)
-    avg_price_per_room = st.number_input("Average price per room (EUR)", 0, 10000)
+    avg_price_per_room = st.number_input("Average price per room (EUR)", 0.00, 10000.00)
     no_of_special_requests = st.number_input("Number of special requests", 0, 50)
     
     
